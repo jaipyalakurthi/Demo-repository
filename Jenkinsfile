@@ -9,7 +9,7 @@ def version, mvnCmd = "mvn -s templates/cicd-settings-nexus3.xml"
 
         stages
         {
-          stage('Build App ')
+          stage('Build App at local machine')
           {
             steps
              {
